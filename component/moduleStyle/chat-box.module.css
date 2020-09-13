@@ -1,0 +1,14 @@
+.chatBox {
+   height: 50vh;
+   overflow: scroll;
+}
+
+.chatInput {
+    width: 23vw;
+}
+
+.inputBox{
+    position: absolute;
+    top: 76%;
+    right: 10%;
+}

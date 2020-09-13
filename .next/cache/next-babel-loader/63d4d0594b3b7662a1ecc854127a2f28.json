@@ -1,0 +1,1 @@
+{"ast":null,"code":"import React from \"react\";\nvar __jsx = React.createElement;\nimport Link from 'next/link';\nimport RegisterModal from '../component/views/auth/registerModalView';\n\nvar App = function App() {\n  return __jsx(\"div\", null, __jsx(RegisterModal, null));\n};\n\nexport default App;","map":null,"metadata":{},"sourceType":"module"}

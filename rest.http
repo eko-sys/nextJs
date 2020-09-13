@@ -1,0 +1,21 @@
+POST  http://localhost:3000/api/auth/login?email=email.eko@yahoo.com&password=zgdlpro059
+
+###
+GET http://localhost:3000/api/user/info?type=history&start=0&end=6
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVrby5uckB5YWhvby5jb20iLCJpYXQiOjE1OTg4NDQ0OTcsImV4cCI6MTYzMDM4MDQ5N30.cBMh_kcnvJskR6JYkHz3bo2ewtBw0ZzxuqjTLbYL0DE
+
+###
+GET http://localhost:3000/api/product/pulsa
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVrby5uckB5YWhvby5jb20iLCJpYXQiOjE1OTg3MDc0OTUsImV4cCI6MTYzMDI0MzQ5NX0.nzvnK8KYuEwjsRsAGhpuL279TzWG1ZqdskvT0hi3TJE
+
+###
+POST  http://localhost:3000/api/product/pulsa/request?action=order&service=1&target=089
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVtYWlsLmVrb0B5YWhvby5jb20iLCJpYXQiOjE1OTg4NzQ4MjIsImV4cCI6MTYzMDQxMDgyMn0.yTMNE6ftiHz9WoO9gKDE97WmkqRb5FVaZYKpxCA0yJQ
+
+###
+POST  http://localhost:3000/api/product/pulsa/request?action=status&trxid=187020
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVtYWlsLmVrb0B5YWhvby5jb20iLCJpYXQiOjE1OTg4NzQ4MjIsImV4cCI6MTYzMDQxMDgyMn0.yTMNE6ftiHz9WoO9gKDE97WmkqRb5FVaZYKpxCA0yJQ
+
+###
+PATCH  http://localhost:3000/api/admin/update/product?markup=0&type=pulsa-reguler
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVtYWlsLmVrb0B5YWhvby5jb20iLCJpYXQiOjE1OTkzNjUyNzgsImV4cCI6MTYzMDkwMTI3OH0.Oafre6d3NP65VE0iUCc6eajNGS7wCZcglBbac-I6Yw0
